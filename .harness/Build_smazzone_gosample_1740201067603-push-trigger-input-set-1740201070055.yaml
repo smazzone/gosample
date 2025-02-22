@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_smazzone_gosample_1740201067603-push-trigger-input-set
+  identifier: Build_smazzone_gosample_1740201067603pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: MyCIProject
+  pipeline:
+    identifier: Build_smazzone_gosample_1740201067603
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
